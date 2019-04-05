@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center mt-4">To Do List</h1>
+
+      <div class='col-12 mb-1 p-1 border rounded'>
+        <form id="create-task">
+          <input id="new-task-content" type="text" placeholder=" Type your new task here..." required/>
+          <button id="addTask">Add</button>
+      </div>
+
+      <div class="col-12 mb-2 p-3 border rounded task-heading">
+        <span id="task-desc">Status / Task Description</span>
+        <span id="task-delete">Delete</span>
+      </div>
+
+      <div class="row" id="tasks"></div>
+
+      <div class="filter_container">
+        <p class="filter-button" id="all">All Tasks</p>
+        <p class="filter-button" id="active">Active Tasks</p>
+        <p class="filter-button" id="completed">Completed Tasks</p>
+        <p class="filter-button" id="clear-completed">Clear Completed</p>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#new-task-content {
+  width: 88%;
+  font-style: italic;
+}
+
+#addTask {
+  width: 10%;
+  background-color: grey;
+  color: white;
+}
+
+.filter_container {
+  width: 100%;
+  color: white;
+}
+
+.filter-button {
+    float: left;
+    width: 267px;
+    background-color: black;
+    margin-right: 10px;
+    padding: 5px 0;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.task-heading {
+  display: inline-block;
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+
+#task-desc {
+  float: left;
+}
+#task-delete {
+  float: right;
+}
+
+.mark-complete {
+  margin-right: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+button.delete {
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
